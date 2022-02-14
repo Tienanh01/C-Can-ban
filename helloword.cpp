@@ -1,5 +1,8 @@
 #include<stdio.h>
+int a1 = 10;
 int main(){
+	
+	printf("gia tri cua a1 la : %d",a1);
 	printf("Bai hoc c dau tien");
 	
 //	 Chuong trinh nhap va in ra man hinh gia tri bien 
@@ -38,6 +41,6 @@ int a1,b1;
  }else{
  	printf("max %d",b1);
  }
- 
+ printf("gia tri cua a1 la : %d",a1);
 
 }
